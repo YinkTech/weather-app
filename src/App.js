@@ -27,6 +27,14 @@ export const designs = () => {
     search.classList.add('search');
     form.append(search);
 
+    const btn = document.createElement("input");
+    btn.setAttribute('type', 'submit');
+    btn.setAttribute('name', 'btn');
+    btn.setAttribute('value', '🔍 Search');
+    btn.setAttribute('id', 'btn');
+    btn.classList.add('btn');
+    form.append(btn);
+
 
     const dataBox = document.createElement("div");
     dataBox.classList.add('dataBox');

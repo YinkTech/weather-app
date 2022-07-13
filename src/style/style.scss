@@ -114,6 +114,20 @@ body {
     justify-content: space-between;
 }
 
+.btn {
+    width: fit-content;
+    padding: 15px;
+    margin: auto;
+    align-self: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0px solid transparent;
+    border-radius: 20px;
+    text-align: center;
+}
+
 @media screen and (max-width: 600px) {
     body {
         background: url(./../assets/mobile.jpg);
@@ -135,7 +149,6 @@ body {
 
     .dataBox {
         width: auto;
-        margin: 50px;
         margin-top: 70px;
     }
     
