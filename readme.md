@@ -1,5 +1,5 @@
 # Weather App
-> This project is a webpack Api functions, getting wather data from api
+> This project is a webpack Api function, getting weather data from API. By typing the city of choice in the search bar.
 
 ## Home Page
 ![screenshot](./)
