@@ -9,14 +9,14 @@ HTML <br> CSS <br> JavaScript <br> Webpack
 
 ## Live Demo
 
-[Live Demo link]
+[https://yinktech.github.io/weather-app/](ht)
 
 ## Authors
 
 👤 **Author 1**
 
 - GitHub: [@YinkTech](https://github.com/yinktech)
-- Twitter: [@YinkTech](https://twitter.com/yink-tech)
+- Twitter: [@YinkTech](https://twitter.com/yink_tech)
 - LinkedIn: [Ayeni Olayinka](https://www.linkedin.com/in/yinktech/)
 
 ## 🤝 Contributing
