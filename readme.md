@@ -2,7 +2,7 @@
 > This project is a webpack Api function, getting weather data from API. By typing the city of choice in the search bar.
 
 ## Home Page
-![screenshot](./)
+![screenshot](./src/assets/screenshot.png)
 
 ## Built With 
 HTML <br> CSS <br> JavaScript <br> Webpack
