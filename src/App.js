@@ -52,7 +52,7 @@ export const designs = () => {
     const imgValue = document.createElement("img");
     imgValue.classList.add('img-cloud');
     imgValue.setAttribute('id', 'img');
-    imgValue.src = ('https://www.animatedimages.org/data/media/278/animated-sun-image-0839.gif');
+    imgValue.src = ('https://www.animatedimages.org/data/media/148/animated-weather-image-0009.gif');
     imcontain.append(imgValue);
 
     // const altImage = document.createElement("img");
