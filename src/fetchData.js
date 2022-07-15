@@ -14,15 +14,25 @@ export const setData = (location) => {
 export const displayWeather = (data) => {
     const name = document.querySelector('.dataTitle');
     const temp = document.querySelector('.tempe');
+    const humText = document.querySelector('.hum');
     const humidity = document.querySelector('.humValue');
+    const pressText = document.querySelector('.pres');
     const press = document.querySelector('.presValue');
+    const windText = document.querySelector('.wind');
     const wind = document.querySelector('.windValue');
+    const contText = document.querySelector('.cont');
     const cont = document.querySelector('.contValue');
+    const img = document.getElementById('img')
 
     name.innerText = `Weather Today in  ${data.name}.`;
     temp.innerText = `${data.main.feels_like}°C`;
+    humText.innerText = `Humidity`;
     humidity.innerText = `${data.main.humidity}`;
+    pressText.innerText = `Pressure`;
     press.innerText = `↓${data.main.pressure} mb`;
+    windText.innerText = `Wind`;
     wind.innerText = `${data.wind.speed} m/s`;
+    contText.innerText = `Country`;
     cont.innerText = `${data.sys.country}`;
+    img.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
 }

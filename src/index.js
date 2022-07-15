@@ -7,10 +7,11 @@ designs();
 const searchBtn = document.getElementById('search');
 const subButton = document.querySelector('.btn');
 
-;subButton.addEventListener('click', () => {setData(searchBtn.value); searchBtn.value = '';});
+subButton.addEventListener('click', () => {setData(searchBtn.value); searchBtn.value = '';});
     searchBtn.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') {
             setData(searchBtn.value);
+            document.querySelector(".tempesub").style.display = "block";
             searchBtn.value = '';
     };
 });

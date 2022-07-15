@@ -75,7 +75,14 @@ body {
 .dataTitle {
   color: $subColor;
   text-align: center;
-  margin-bottom: 30px;
+}
+
+.imcontain {
+  align-self: center;
+}
+
+.img-cloud {
+  width: fit-content;
 }
 
 .altImage {
@@ -94,6 +101,7 @@ body {
   color: $subColor;
   text-align: center;
   display: block;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 

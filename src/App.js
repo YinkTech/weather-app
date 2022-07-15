@@ -41,12 +41,21 @@ export const designs = () => {
     container.appendChild(dataBox);
     
     const dataTitle = document.createElement("h2");
-    dataTitle.innerHTML = 'Weather Today in '
+    dataTitle.innerHTML = 'Weather Today in City your'
     dataTitle.classList.add('dataTitle');
     dataBox.append(dataTitle);
+    
+    const imcontain = document.createElement("div");
+    imcontain.classList.add('imcontain');
+    dataBox.append(imcontain);
+
+    const imgValue = document.createElement("img");
+    imgValue.classList.add('img-cloud');
+    imgValue.setAttribute('id', 'img');
+    imgValue.src = ('https://www.animatedimages.org/data/media/278/animated-sun-image-0839.gif');
+    imcontain.append(imgValue);
 
     // const altImage = document.createElement("img");
-    // altImage.src = ('https://www.animatedimages.org/data/media/278/animated-sun-image-0839.gif');
     // altImage.setAttribute('alt', 'animated-sun-image');
     // altImage.classList.add('altImage');
     // dataBox.append(altImage);
@@ -60,6 +69,7 @@ export const designs = () => {
 
     const tempesub = document.createElement("h5");
     tempesub.classList.add("tempesub");
+    tempesub.style.display = "none";
     tempesub.innerHTML = ('Feels Like');
     dataBox.append(tempesub);
 
@@ -78,10 +88,9 @@ export const designs = () => {
     const contBox = document.createElement("div");
     contBox.classList.add("humCont");
     dataBox.append(contBox);
-
     
     const hum = document.createElement("span");
-    hum.innerHTML = ("Humidy")
+    hum.classList.add('hum');
     humBox.append(hum);
 
     const humValue = document.createElement("span");
@@ -89,7 +98,7 @@ export const designs = () => {
     humBox.append(humValue);
 
     const pres = document.createElement("span");
-    pres.innerHTML = ("Pressure");
+    pres.classList.add('pres');
     presBox.append(pres);
 
     const presValue = document.createElement("span");
@@ -97,7 +106,7 @@ export const designs = () => {
     presBox.append(presValue);
 
     const wind = document.createElement("span");
-    wind.innerHTML = ("Wind")
+    wind.classList.add('wind');
     windBox.append(wind);
 
     const windValue = document.createElement("span");
@@ -105,14 +114,10 @@ export const designs = () => {
     windBox.append(windValue);
 
     const cont = document.createElement("span");
-    cont.innerHTML = ("Country")
+    cont.classList.add('cont');
     contBox.append(cont);
 
     const contValue = document.createElement("span");
     contValue.classList.add('contValue');
     contBox.append(contValue);
-
-
-
-    
 }
